@@ -2,8 +2,8 @@
  * @Author: liuruijun
  * @Date: 2020-09-02 19:42:53
  * @LastEditors: liuruijun
- * @LastEditTime: 2020-09-03 15:00:26
- * @Description: file content
+ * @LastEditTime: 2020-09-03 16:04:54
+ * @Description: npm 命令执行
  */
 const { spawn } = require('child_process');
 

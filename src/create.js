@@ -2,7 +2,7 @@
  * @Author: liuruijun
  * @Date: 2020-08-24 10:52:14
  * @LastEditors: liuruijun
- * @LastEditTime: 2020-09-03 15:00:17
+ * @LastEditTime: 2020-09-03 15:45:17
  * @Description: file content
  */
 const inquirer = require('inquirer');
@@ -10,10 +10,9 @@ const path = require('path');
 const fs = require('fs');
 const metalSmith = require('./metalSmith');// 遍历文件夹
 const { logError, log } = require('../utils/log');
-const templates = require('../config/templates');
 const download = require('../utils/download');
 const {
-  downloadDirectory, projectType, coverFolder, hasYarn, isWindows,
+  downloadDirectory, projectType, coverFolder, hasYarn, isWindows, templates,
 } = require('./constants');
 const { ncp, figlet } = require('../utils/promises');
 const command = require('../utils/command');
@@ -54,12 +53,14 @@ module.exports = async (projectName) => {
       const isSuccess = await metalSmith({
         result, type, askType: `${type}ask`, projectName,
       });
+
       // 3)安装依赖
       if (isSuccess) {
-        // 自动安装依赖
         log('start install dependencies......');
         const order = hasYarn() ? 'yarn' : 'npm';
+        // 自动安装依赖
         await command(isWindows ? `${order}.cmd` : order, ['install'], { cwd: `./${projectName}` });
+        // eslint 校验修正
         await command(isWindows ? `${order}.cmd` : order, ['lint'], { cwd: `./${projectName}` });
         const data = await figlet('success');
         log(data);

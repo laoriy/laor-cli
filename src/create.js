@@ -2,7 +2,7 @@
  * @Author: liuruijun
  * @Date: 2020-08-24 10:52:14
  * @LastEditors: liuruijun
- * @LastEditTime: 2020-09-03 15:45:17
+ * @LastEditTime: 2020-09-03 17:06:11
  * @Description: file content
  */
 const inquirer = require('inquirer');
@@ -35,7 +35,7 @@ module.exports = async (projectName) => {
     /**
      * 1.模板下载
      */
-    const dest = `${downloadDirectory}/${choosed.downloadUrl}`;// 下载的目录
+    const dest = `${downloadDirectory}/.${choosed.downloadUrl}`;// 下载的目录
     const result = await download(choosed.downloadUrl, dest, 'download template');
 
     /**

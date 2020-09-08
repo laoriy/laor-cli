@@ -2,7 +2,7 @@
  * @Author: liuruijun
  * @Date: 2020-08-24 09:45:55
  * @LastEditors: liuruijun
- * @LastEditTime: 2020-09-03 15:40:49
+ * @LastEditTime: 2020-09-08 15:57:03
  * @Description: file content
  */
 const { execSync } = require('child_process');
@@ -23,16 +23,16 @@ const templates = {
     downloadUrl: 'laoriy/vue',
     description: 'vue template',
   },
-  'react + typesrcipt': {
-    url: 'https://github.com/laoriy/tpl-b.git',
-    downloadUrl: 'laoriy/tpl-b',
-    description: 'react + typesrcipt template',
-  },
-  'vue + typesrcipt': {
-    url: 'https://github.com/laoriy/tpl-b.git',
-    downloadUrl: 'laoriy/tpl-b',
-    description: 'vue + typesrcipt template',
-  },
+  // 'react + typesrcipt': {
+  //   url: 'https://github.com/laoriy/tpl-b.git',
+  //   downloadUrl: 'laoriy/tpl-b',
+  //   description: 'react + typesrcipt template',
+  // },
+  // 'vue + typesrcipt': {
+  //   url: 'https://github.com/laoriy/tpl-b.git',
+  //   downloadUrl: 'laoriy/tpl-b',
+  //   description: 'vue + typesrcipt template',
+  // },
 };
 
 const projectType = [{

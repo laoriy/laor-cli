@@ -2,7 +2,7 @@
  * @Author: liuruijun
  * @Date: 2020-08-24 10:41:21
  * @LastEditors: liuruijun
- * @LastEditTime: 2020-08-24 10:49:27
+ * @LastEditTime: 2020-09-07 14:36:24
  * @Description: file content
  */
 module.exports = {
@@ -11,7 +11,6 @@ module.exports = {
     commonjs: true,
     es6: true,
   },
-  extends: 'airbnb-base',
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',

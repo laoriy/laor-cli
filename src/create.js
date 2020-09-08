@@ -2,7 +2,7 @@
  * @Author: liuruijun
  * @Date: 2020-08-24 10:52:14
  * @LastEditors: liuruijun
- * @LastEditTime: 2020-09-03 17:06:11
+ * @LastEditTime: 2020-09-07 10:37:48
  * @Description: file content
  */
 const inquirer = require('inquirer');
@@ -66,13 +66,13 @@ module.exports = async (projectName) => {
         log(data);
 
         log(`
-  successfully created project ${projectName}：
-  Get started with the following commands:
-  =========================================
-  cd ${projectName}
-  ${order} run serve
-  =========================================
-          `);
+      successfully created project ${projectName}：
+      Get started with the following commands:
+      =========================================
+      cd ${projectName}
+      ${order} run serve
+      =========================================
+              `);
       }
     }
   } else {

@@ -16,7 +16,7 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@laoriy/cli-service": "^1.0.0",
+        "@laoriy/cli-service": "^1.0.1",
         "@babel/preset-typescript": "^7.16.0",
         "@types/jest": "^27.0.3",
         "@typescript-eslint/eslint-plugin": "^5.4.0",

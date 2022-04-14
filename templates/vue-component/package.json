@@ -23,7 +23,7 @@
     "author": "jack",
     "license": "MIT",
     "devDependencies": {
-        "@laoriy/cli-service": "^1.0.0",
+        "@laoriy/cli-service": "^1.0.1",
         "@types/jest": "^27.4.0",
         "@typescript-eslint/eslint-plugin": "^5.9.0",
         "@typescript-eslint/parser": "^5.9.0",

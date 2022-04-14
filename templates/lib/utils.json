@@ -1,0 +1,4 @@
+{
+    "sum": "./src/utils/sum.ts",
+    "hello": "./src/utils/hello.ts"
+}

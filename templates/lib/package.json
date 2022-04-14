@@ -1,0 +1,37 @@
+{
+    "name": "template-lib",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build:dev": "laoriy-cli-service build:dev",
+        "build:prod": "laoriy-cli-service build:prod",
+        "build:src": "laoriy-cli-service build:src",
+        "build": "laoriy-cli-service build",
+        "tsc": "tsc",
+        "dev": "laoriy-cli-service dev",
+        "serve": "npm run dev",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@laoriy/cli-service": "^1.1.5",
+        "@babel/preset-typescript": "^7.16.0",
+        "@types/jest": "^27.0.3",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "babel-jest": "^27.3.1",
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.2",
+        "eslint-plugin-prettier": "^4.0.0",
+        "jest": "^27.3.1",
+        "typescript": "^4.5.2"
+    },
+    "eslintIgnore": [
+        "**/*.d.ts",
+        "dist/*"
+    ]
+}

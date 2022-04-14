@@ -21,7 +21,7 @@ npm i @laoriy/cli -g
 laoriy create <projectName>
 ```
 
-[查看更多](http://git.aqara.com/root/AIOT_aqara-npm-libs/-/blob/ops/aqara-cli/cli/README.md)
+[查看更多](https://github.com/laoriy/laor-cli/tree/master/cli#readme)
 
 # @laoriy/cli-service
 
@@ -48,7 +48,7 @@ laor-cli-service build
 
 ```
 
-[查看更多](http://git.aqara.com/root/AIOT_aqara-npm-libs/-/blob/ops/aqara-cli/cli-service/README.md)
+[查看更多](https://github.com/laoriy/laor-cli/blob/master/cli-service/README.md)
 
 # templates/lib
 
@@ -66,7 +66,7 @@ laoriy create <projectName>
 > lib
 ```
 
-[查看更多](http://git.aqara.com/root/AIOT_aqara-npm-libs/-/blob/ops/aqara-cli/templates/lib/README.md)
+[查看更多](https://github.com/laoriy/laor-cli/tree/master/templates/lib#readme)
 
 # templates/vue-component
 
@@ -84,7 +84,7 @@ laoriy create <projectName>
 > vue-component
 ```
 
-[查看更多](http://git.aqara.com/root/AIOT_aqara-npm-libs/-/blob/ops/aqara-cli/templates/vue-component/README.md)
+[查看更多](https://github.com/laoriy/laor-cli/tree/master/templates/vue-component#readme)
 
 ## 问题
 

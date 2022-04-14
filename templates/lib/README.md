@@ -2,11 +2,11 @@
 
 ## 一、背景
 
-基于 [@laoriy/cli-service](http://git.aqara.com/root/AIOT_aqara-npm-libs/-/tree/ops/aqara-cli/cli-service) 打包工具，统一 js 工具库开发流程和规范，减少复制粘贴过程，降低对构建开发环境配置的学习成本，提高上手速度。
+基于 [@laoriy/cli-service](https://github.com/laoriy/laor-cli/tree/master/cli-service) 打包工具，统一 js 工具库开发流程和规范，减少复制粘贴过程，降低对构建开发环境配置的学习成本，提高上手速度。
 
-> 脚手架 [@laoriy/cli](http://git.aqara.com/root/AIOT_aqara-npm-libs/-/tree/ops/aqara-cli/cli) 版本`v1.0.0+`可以选择该模板
+> 脚手架 [@laoriy/cli](https://github.com/laoriy/laor-cli/tree/master/cli) 版本`v1.0.0+`可以选择该模板
 
-> 构建工具 [@laoriy/cli-service](http://git.aqara.com/root/AIOT_aqara-npm-libs/-/tree/ops/aqara-cli/cli-service) 版本`v1.0.0+`支持构建该模板
+> 构建工具 [@laoriy/cli-service](https://github.com/laoriy/laor-cli/tree/master/cli-service) 版本`v1.0.0+`支持构建该模板
 
 ## 二、设计要点
 
@@ -94,7 +94,7 @@
 }
 ```
 
-> laoriy.config.json（[更多配置](http://git.aqara.com/root/AIOT_aqara-npm-libs/-/tree/ops/aqara-cli/cli-service#aqaraconfigjs%E9%85%8D%E7%BD%AE%E9%A1%B9)）
+> laoriy.config.json（[更多配置](https://github.com/laoriy/laor-cli/tree/master/cli-service#laoriyconfigjs%E9%85%8D%E7%BD%AE%E9%A1%B9)）
 
 -   打包扩展配置项，会在 build 的时候 merge 到内置的默认配置中，使用方式和 webpack 配置一致。
 
